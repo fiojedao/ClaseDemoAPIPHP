@@ -1,0 +1,79 @@
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Warning:  Attempt to read property "title" on string in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 40
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   5. MovieModel->create($objeto = '{\r\n    "title":"Pelicula 1",\r\n    "year": 2023,\r\n    "time": 160,\r\n    "lang": "Español"\r\n}') C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Warning:  Attempt to read property "year" on string in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 40
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   5. MovieModel->create($objeto = '{\r\n    "title":"Pelicula 1",\r\n    "year": 2023,\r\n    "time": 160,\r\n    "lang": "Español"\r\n}') C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Warning:  Attempt to read property "time" on string in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 40
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   5. MovieModel->create($objeto = '{\r\n    "title":"Pelicula 1",\r\n    "year": 2023,\r\n    "time": 160,\r\n    "lang": "Español"\r\n}') C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Warning:  Attempt to read property "lang" on string in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 40
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 02:35:30 Europe/Berlin] PHP   5. MovieModel->create($objeto = '{\r\n    "title":"Pelicula 1",\r\n    "year": 2023,\r\n    "time": 160,\r\n    "lang": "Español"\r\n}') C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 48
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   5. MovieModel->create($objeto = class stdClass { public $title = 'Pelicula 1'; public $year = 2023; public $time = 160; public $lang = 'Español'; public $genres = [0 => 2, 1 => 4, 2 => 6]; public $actors = [0 => [...], 1 => [...]] }) C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 48
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   5. MovieModel->create($objeto = class stdClass { public $title = 'Pelicula 1'; public $year = 2023; public $time = 160; public $lang = 'Español'; public $genres = [0 => 2, 1 => 4, 2 => 6]; public $actors = [0 => [...], 1 => [...]] }) C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 48
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   5. MovieModel->create($objeto = class stdClass { public $title = 'Pelicula 1'; public $year = 2023; public $time = 160; public $lang = 'Español'; public $genres = [0 => 2, 1 => 4, 2 => 6]; public $actors = [0 => [...], 1 => [...]] }) C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 48
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   5. MovieModel->create($objeto = class stdClass { public $title = 'Pelicula 1'; public $year = 2023; public $time = 160; public $lang = 'Español'; public $genres = [0 => 2, 1 => 4, 2 => 6]; public $actors = [0 => [...], 1 => [...]] }) C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 48
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   5. MovieModel->create($objeto = class stdClass { public $title = 'Pelicula 1'; public $year = 2023; public $time = 160; public $lang = 'Español'; public $genres = [0 => 2, 1 => 4, 2 => 6]; public $actors = [0 => [...], 1 => [...]] }) C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 48
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP Stack trace:
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\peliculas\index.php:0
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   2. RoutesController->index() C:\xampp\htdocs\peliculas\index.php:29
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   3. include() C:\xampp\htdocs\peliculas\controllers\RoutesController.php:4
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   4. movie->create() C:\xampp\htdocs\peliculas\routes\routes.php:64
+[08-Feb-2023 03:49:38 Europe/Berlin] PHP   5. MovieModel->create($objeto = class stdClass { public $title = 'Pelicula 1'; public $year = 2023; public $time = 160; public $lang = 'Español'; public $genres = [0 => 2, 1 => 4, 2 => 6]; public $actors = [0 => [...], 1 => [...]] }) C:\xampp\htdocs\peliculas\controllers\MovieController.php:72
+[08-Feb-2023 04:01:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:01:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:01:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:02:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:02:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:02:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:02:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:03:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
+[08-Feb-2023 04:03:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$row" in C:\xampp\htdocs\peliculas\models\MovieModel.php on line 70
